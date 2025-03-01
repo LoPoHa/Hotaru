@@ -2,7 +2,6 @@
   "name": "lopoha/hotaru",
   "version": "0.1.0",
   "deps": {
-    "moonbitlang/wasm4": "0.2.4"
   },
   "readme": "README.md",
   "repository": "",
