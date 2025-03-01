@@ -1,0 +1,9 @@
+author_id = "lopoha"
+app_id = "hello-moonbit"
+author_name = "LoPoHa"
+app_name = "Hello Moonbit"
+
+[files]
+img = { path = "assets/images/Sprite-0001.png" }
+img2 = { path = "assets/images/Sprite-0002.png" }
+font = { path = "assets/fonts/eg_9x15.fff" }

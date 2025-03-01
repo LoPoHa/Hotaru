@@ -1,0 +1,17 @@
+{
+  "import": [
+    "lopoha/hotaru/graphics",
+    "lopoha/hotaru/internal",
+    "lopoha/hotaru/logging"
+  ],
+  "link": {
+    "wasm": {
+      "exports": [
+        "boot",
+        "update",
+        "render"
+      ],
+      "export-memory-name": "memory"
+    }
+  }
+}
