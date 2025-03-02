@@ -1,7 +1,7 @@
 {
   "import": [
     "lopoha/hotaru/graphics",
-    "lopoha/hotaru/internal",
+    "lopoha/hotaru/input",
     "lopoha/hotaru/logging"
   ],
   "link": {

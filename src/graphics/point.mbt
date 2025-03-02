@@ -14,6 +14,16 @@ pub fn Point::new(x : Int, y : Int) -> Point {
   { x, y }
 }
 
+///|
+pub fn Point::move_horizontal(self : Point, amount : Int) -> Unit {
+  self.x = self.x + amount
+}
+
+///|
+pub fn Point::move_vertical(self : Point, amount : Int) -> Unit {
+  self.y = self.y + amount
+}
+
 // Set x and y to their absolute (non-negative) value.
 ///|
 pub fn Point::abs(self : Point) -> Point {

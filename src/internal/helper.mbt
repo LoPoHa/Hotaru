@@ -20,6 +20,11 @@ pub fn Helper::max(left : Int, right : Int) -> Int {
 }
 
 ///|
+pub fn Helper::has_bit_set(val : UInt, bit : Int) -> Bool {
+  ((val >> bit) & 0b1) != 0
+}
+
+///|
 pub fn Helper::array_to_pointer(arr : FixedArray[Byte]) -> Int {
   get_addr(arr)
 }

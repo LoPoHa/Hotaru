@@ -1,0 +1,6 @@
+{
+    "import": [
+        "lopoha/hotaru/internal",
+        "lopoha/hotaru/logging"
+    ]
+}
